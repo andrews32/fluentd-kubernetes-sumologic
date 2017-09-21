@@ -16,7 +16,7 @@ spec:
         emptyDir: {}
       - name: host-logs
         hostPath:
-          path: /var/log/
+          path: /var/log/sumologic
       - name: docker-logs
         hostPath:
           path: /var/lib/docker
@@ -29,7 +29,7 @@ spec:
           mountPath: /mnt/log/
           readOnly: true
         - name: host-logs
-          mountPath: /var/log/
+          mountPath: /var/log/sumologic
           readOnly: true
         - name: docker-logs
           mountPath: /var/lib/docker/
