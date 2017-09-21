@@ -38,4 +38,4 @@ spec:
           mountPath: /mnt/pos/
         env:
         - name: COLLECTOR_URL
-          value: https://endpoint2.collection.sumologic.com/receiver/v1/http/ZaVnC4dhaV34Y9WJmEA92BXTOZDbTodZC4DTos0ibgz236YJEL5gPx4qoWuvTnq5LqVrxK7V3NIGY6k8hbbw7ByTU4CyGGWtXHqLSk53uGFBbWdrMTZodg==
+          value: 'https://endpoint2.collection.sumologic.com/receiver/v1/http/ZaVnC4dhaV34Y9WJmEA92BXTOZDbTodZC4DTos0ibgz236YJEL5gPx4qoWuvTnq5LqVrxK7V3NIGY6k8hbbw7ByTU4CyGGWtXHqLSk53uGFBbWdrMTZodg=='
