@@ -25,7 +25,7 @@ RUN mkdir -p /fluentd/conf.d && \
 # Default settings
 ENV LOG_FORMAT "json"
 ENV FLUSH_INTERVAL "5s"
-ENV NUM_THREADS "1"
+ENV NUM_THREADS "5"
 ENV SOURCE_CATEGORY "%{namespace}/%{pod_name}"
 ENV SOURCE_CATEGORY_PREFIX ""
 ENV SOURCE_CATEGORY_REPLACE_DASH "_"
