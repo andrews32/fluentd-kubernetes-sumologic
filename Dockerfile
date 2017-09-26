@@ -1,7 +1,6 @@
 FROM fluent/fluentd:v0.14.17-debian
 WORKDIR /home/fluent
 ENV PATH /home/fluent/.gem/ruby/2.3.0/bin:$PATH
-ENV COLLECTOR_URL https://endpoint2.collection.sumologic.com/receiver/v1/http/ZaVnC4dhaV27WClZJOcsZjAiLRdKg1hd560dhL_NqD_ne2ksQbfG2p27MwnUkFOHNJYByftP0rPkFN9vZ6uECQhkVR7ZB9A3doAWJXbJWkNTVo7MXFSYnQ==
 
 USER root
 
